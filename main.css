@@ -1,0 +1,23 @@
+@import "shop.css";
+
+.pageHeader {
+    justify-content: space-evenly;
+    display: flex;
+    color: rgb(99, 42, 165);
+    font-size: 50px;
+}
+
+.list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+/*
+.shop {
+    flex-basis: 25%;
+    border: 1px dotted black;
+    margin: 0em;
+    padding: .25em;
+}
